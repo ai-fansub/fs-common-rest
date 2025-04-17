@@ -30,8 +30,8 @@ import static com.fs.common.core.util.ResultInfoUtil.setResultInfo;
 @Slf4j
 @RestControllerAdvice(
         basePackages = {
-                "com.rm.spring",
-                "com.rm.service"
+                "com.fs.spring",
+                "com.fs.service"
         })
 public class ResponseProcess implements ResponseBodyAdvice<Object> {
 
